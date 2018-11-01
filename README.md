@@ -14,7 +14,7 @@ Esse microserviço tem como função auxiliar a autentificação de usuário par
 	"senha": "1234567" <br />
 }<br />
 <br />
-Após receber esse objeto, o serviço verifica se existe tal usuário no banco 
+Após receber esse objeto, o serviço verifica se existe tal usuário no banco e, se existir, acrescenta o "id" que existe apenas no banco de dados desse microserviço.
 # Tecnologias utilizada
 O microserviço utiliza as seguintes tecnologias: <br />
   1 - Lingugagem Java versão 8; <br />
@@ -24,7 +24,7 @@ O microserviço utiliza as seguintes tecnologias: <br />
 # Instalação
 
 1 - Realizar o download e instalar o bando de dados PostgreSQL; <br />
-2 - Criar um banco de dados chamado "mservice2;<br />
+2 - Criar um banco de dados chamado "mservice2 executando o seguinte comando: "create database mservice2"<br />
 3 - Realizar o git clone do repositório;<br />
 4 - Fazer o download do plugin Maven ou - caso possua a IDE Eclise - Importar o projeto para o Eclipse através de:<br />
     File > Import > Maven > Existing Maven Projects<br />
