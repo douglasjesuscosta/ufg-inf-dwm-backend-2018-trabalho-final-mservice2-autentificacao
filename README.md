@@ -6,7 +6,7 @@ Douglas de Jesus Costa, <br />
 Douglas Winston Ribeiro Soares <br />
 Lucas de Castro Rieiro <br />
 
-#Utilização
+# Utilização
 Esse microserviço tem como função auxiliar a autentificação de usuário para a realização do cadastro de compras. Dessa forma, o serviço recebe os dados do usuário em Json como no exemplo abaixo: <br />
 {<br />
 	"id": null, <br />
